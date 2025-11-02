@@ -58,6 +58,7 @@
     background-color: black;
     left:-20%;
     bottom: -110%;
+    transition: .3s ease;
 }
 
 .EXPLOARE-BTN:hover::before{
@@ -165,7 +166,6 @@
 .footer-input input {
   border: none;
   padding: 12px 15px;
-
   border-radius: 0;
 }
 
@@ -188,7 +188,7 @@
   display: flex;
   justify-content: center;
   justify-content: flex-end;
-  gap: 15px;
+  gap: 20px;
 }
 
 .footer-icon-link {
@@ -208,6 +208,7 @@
   background: #000000;
   color: #fff;
   border: #fff 1px solid;
+  box-shadow: 1px 1px 20px #aaaaaa;
 }
 
 .footer-divider {
