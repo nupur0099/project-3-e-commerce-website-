@@ -1,97 +1,407 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Porto-Homepage 18</title>
     <!----------------------- Bootstrap-link--------------------- -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <!------------------------- style-css link----------------------- -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!------------------------- media-css link----------------------- -->
-    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/media.css" />
     <!------------------------ Font-awesome cdn---------------------- -->
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/all.css">
-
-
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v7.0.1/css/all.css"
+    />
+    <!-- owl carousel css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- owl carousel css -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font -->
   </head>
   <body>
     <!--************************* Nupur's section start************************* -->
     <!------------------------- Hero-section start----------------------- -->
 
-    <section id="hero-section">
-
-    </section>
+    <section id="hero-section"></section>
 
     <!------------------------- Hero-section end----------------------- -->
 
     <!------------------------- Shop-section start----------------------- -->
-    <section id="shop-section">
-
-    </section>
+    <section id="shop-section"></section>
     <!------------------------- Shop-section end----------------------- -->
 
     <!--************************* Nupur's section end************************* -->
-
-
-
-
-
-
-
-
-
-
 
     <!--************************* Wahed's sections start************************* -->
 
     <!------------------------- Ultra-boost section start----------------------- -->
     <section id="ultra-section">
-
+      <div class="container-fluid ultraboost-bg">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6 py-5">
+            <h1 class="text-white t-f fw-bold">ULTRA BOOST</h1>
+            <img
+              src="./assets/img/ultra-boost-sec-img/shoes.png"
+              class="img-fluid my-5"
+              alt=""
+            />
+            <button class="btn bg-white rounded-0 fw-bolder px-5 py-3 fs-7">
+              SHOP NOW
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <!------------------------- Ultra-boost section end----------------------- -->
-    
-    
+
     <!------------------------- Featured section Start----------------------- -->
     <section id="Featured-section">
-
+      <!-- Product Carousel Start -->
+      <div class="container-fluid bg-theam py-5 position-relative">
+        <div class="row">
+          <div class="col-md-12 f-t fw-bolder text-center">
+            <p>FEATURED PRODUCTS</p>
+          </div>
+        </div>
+        <div class="container position-relative px-3 px-md-4 px-lg-5">
+          <div class="owl-carousel owl-theme product-carousel">
+            <!-- Product Item 1 -->
+            <div class="item my-0">
+              <div class="card border-0 shadow-sm h-100">
+                <div
+                  class="ratio ratio-1x1 position-relative product-image-wrapper"
+                >
+                  <img
+                    src="./assets/img/ultra-boost-sec-img/shop18_product15.jpeg"
+                    alt="Product"
+                    class="card-img-top rounded object-fit-cover"
+                  />
+                  <div class="product-hover-overlay"></div>
+                  <button class="btn btn-light quickview-btn fw-bold">
+                    QUICKVIEW
+                  </button>
+                  <div class="product-action-icons">
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-shopping-bag"></i>
+                    </button>
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-chart-bar"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <div
+                    class="d-flex justify-content-between align-items-start mb-2"
+                  >
+                    <h6
+                      class="card-title mb-0 text-muted t-f fw-normal small flex-grow-1"
+                    >
+                      Swimming ...
+                    </h6>
+                    <i class="far fa-heart text-muted ms-2"></i>
+                  </div>
+                  <div class="mb-2">
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                  </div>
+                  <p class="card-text text-dark fw-semibold mb-0 t-f">$99.00</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product Item 2 -->
+            <div class="item my-0">
+              <div class="card border-0 shadow-sm h-100">
+                <div
+                  class="ratio ratio-1x1 position-relative product-image-wrapper"
+                >
+                  <img
+                    src="./assets/img/ultra-boost-sec-img/shop18_product11_1.jpeg"
+                    alt="Product"
+                    class="card-img-top rounded object-fit-cover"
+                  />
+                  <div class="product-hover-overlay"></div>
+                  <button class="btn btn-light quickview-btn fw-bold">
+                    QUICKVIEW
+                  </button>
+                  <div class="product-action-icons">
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-shopping-bag"></i>
+                    </button>
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-chart-bar"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <div
+                    class="d-flex justify-content-between align-items-start mb-2"
+                  >
+                    <h6
+                      class="card-title mb-0 text-muted t-f fw-normal small flex-grow-1"
+                    >
+                      Nike Air ...
+                    </h6>
+                    <i class="far fa-heart text-muted ms-2"></i>
+                  </div>
+                  <div class="mb-2">
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                  </div>
+                  <p class="card-text text-dark fw-semibold mb-0 t-f">$99.00</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product Item 3 -->
+            <div class="item my-0">
+              <div class="card border-0 shadow-sm h-100">
+                <div
+                  class="ratio ratio-1x1 position-relative product-image-wrapper"
+                >
+                  <img
+                    src="./assets/img/ultra-boost-sec-img/shop18_product9.jpeg"
+                    alt="Product"
+                    class="card-img-top rounded object-fit-cover"
+                  />
+                  <div class="product-hover-overlay"></div>
+                  <button class="btn btn-light quickview-btn fw-bold">
+                    QUICKVIEW
+                  </button>
+                  <div class="product-action-icons">
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-shopping-bag"></i>
+                    </button>
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-chart-bar"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <div
+                    class="d-flex justify-content-between align-items-start mb-2"
+                  >
+                    <h6
+                      class="card-title mb-0 text-muted t-f fw-normal small flex-grow-1"
+                    >
+                      Converse ...
+                    </h6>
+                    <i class="far fa-heart text-muted ms-2"></i>
+                  </div>
+                  <div class="mb-2">
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                  </div>
+                  <p class="card-text text-dark fw-semibold mb-0 t-f">$99.00</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product Item 4 -->
+            <div class="item my-0">
+              <div class="card border-0 shadow-sm h-100">
+                <div
+                  class="ratio ratio-1x1 position-relative product-image-wrapper"
+                >
+                  <img
+                    src="./assets/img/ultra-boost-sec-img/shop18_product5_1.jpeg"
+                    alt="Product"
+                    class="card-img-top rounded object-fit-cover"
+                  />
+                  <div class="product-hover-overlay"></div>
+                  <button class="btn btn-light quickview-btn fw-bold">
+                    QUICKVIEW
+                  </button>
+                  <div class="product-action-icons">
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-shopping-bag"></i>
+                    </button>
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-chart-bar"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <div
+                    class="d-flex justify-content-between align-items-start mb-2"
+                  >
+                    <h6
+                      class="card-title mb-0 text-muted t-f fw-normal small flex-grow-1"
+                    >
+                      Converse ...
+                    </h6>
+                    <i class="far fa-heart text-muted ms-2"></i>
+                  </div>
+                  <div class="mb-2">
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                  </div>
+                  <p class="card-text text-dark fw-semibold mb-0 t-f">$99.00</p>
+                </div>
+              </div>
+            </div>
+            <!-- Product Item 6 -->
+            <div class="item my-0">
+              <div class="card border-0 shadow-sm h-100">
+                <div
+                  class="ratio ratio-1x1 position-relative product-image-wrapper"
+                >
+                  <img
+                    src="./assets/img/ultra-boost-sec-img/shop18_product13.jpeg"
+                    alt="Product"
+                    class="card-img-top rounded object-fit-cover"
+                  />
+                  <div class="product-hover-overlay"></div>
+                  <button class="btn btn-light quickview-btn">QUICKVIEW</button>
+                  <div class="product-action-icons">
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-shopping-bag"></i>
+                    </button>
+                    <button
+                      class="btn btn-light rounded-circle action-icon-btn"
+                    >
+                      <i class="fas fa-chart-bar"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body d-flex flex-column">
+                  <div
+                    class="d-flex justify-content-between align-items-start mb-2"
+                  >
+                    <h6
+                      class="card-title mb-0 text-muted t-f fw-normal small flex-grow-1"
+                    >
+                      Yard Bicycle
+                    </h6>
+                    <i class="far fa-heart text-muted ms-2"></i>
+                  </div>
+                  <div class="mb-2">
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                    <i class="fas fa-star text-muted small"></i>
+                  </div>
+                  <p class="card-text text-dark fw-semibold mb-0 t-f">$99.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product Carousel End -->
+        <!-- Sale start -->
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-6 left-off d-flex  align-items-center justify-content-between"
+            >
+              <div class="left-text px-4 py-5">
+                <h4 class="t-f fw-lighter fs-2 mb-0">Summer Sale</h4>
+                <h1 class="fw-bold t-f display-4">20% OFF</h1>
+              </div>
+              <button class="btn btn-dark h-25 rounded-0 fw-bolder px-5 fs-7">
+                SHOP NOW
+              </button>
+            </div>
+            <div
+              class="col-md-6 right-off d-flex align-items-center justify-content-between"
+            >
+              <div class="left-text px-4 py-5">
+                <h4 class="t-f fw-lighter fs-2 text-white mb-0">Flash Sale</h4>
+                <h1 class="fw-bold t-f display-4 text-white">20% OFF</h1>
+              </div>
+              <button
+                class="btn bg-white text-black h-25 rounded-0 fw-bolder px-5 fs-7"
+              >
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Sale end -->
+      </div>
     </section>
     <!------------------------- Featured section end----------------------- -->
 
-
     <!--************************* Wahed's sections end************************* -->
-    
-    
-    
-    
-    
-    
-    
-    
+
     <!--************************* Arpon's sections Start************************* -->
     <!--------------------------- Explore-section start------------------------- -->
-    <section id="explore-section">
-
-    </section>
+    <section id="explore-section"></section>
     <!--------------------------- Explore-section end------------------------- -->
-    
-    
-    <!--------------------------- Footer-section start------------------------- -->
-    <section id="footer-section">
 
-    </section>
+    <!--------------------------- Footer-section start------------------------- -->
+    <section id="footer-section"></section>
     <!--------------------------- Footer-section end------------------------- -->
 
     <!--************************* Arpon's sections end************************* -->
 
-
-
-
-
-
-<!------------------ java-script link-1---------------- -->
-<script src="assets/js/script.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!------------------ java-script link-1---------------- -->
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- jquery cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- owl carousel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
