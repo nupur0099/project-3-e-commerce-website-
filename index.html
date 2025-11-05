@@ -1,97 +1,683 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Porto-Homepage 18</title>
     <!----------------------- Bootstrap-link--------------------- -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <!------------------------- style-css link----------------------- -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!------------------------- media-css link----------------------- -->
-    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/media.css" />
     <!------------------------ Font-awesome cdn---------------------- -->
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.1/css/all.css">
-
-
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v7.0.1/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"> -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!---------------- Isotop-link-------------- -->
   </head>
   <body>
     <!--************************* Nupur's section start************************* -->
     <!------------------------- Hero-section start----------------------- -->
 
     <section id="hero-section">
+      <div class="container-fluid">
+        <div class="row p-0">
+          <div class="col-md-12 p-0">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex flex-column logo" href="#">
+                  <img
+                    src="assets/img/hero-section-img/logo_ecomwhite_lg.png"
+                    alt=""
+                  />
+                </a>
 
+                <!-- Mobile toggle -->
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Center menu -->
+                <div
+                  class="collapse navbar-collapse justify-content-center"
+                  id="navbarNav"
+                >
+                  <ul class="navbar-nav mb-2 mx-auto mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <!-- categories-list -->
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                      >
+                        Categories <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">Men's Fashion</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Women's Fashion</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Accessories</a>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <!-- product-list -->
+
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                      >
+                        Products <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">New Arrivals</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Best Sellers</a>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sale</a></li>
+                      </ul>
+                    </li>
+
+                    <!-- pages-list -->
+
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                      >
+                        Pages <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                      </ul>
+                    </li>
+
+                    <!-- Feature-list -->
+
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown"
+                      >
+                        Features <i class="fa-solid fa-chevron-down"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">About Us</a></li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Buy Porto!</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Right icons -->
+                <div class="icon-drop-down">
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                    >
+                      USD <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li><a class="dropdown-item" href="#">Contact</a></li>
+                      <li><a class="dropdown-item" href="#">FAQ</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                    >
+                      LINKS <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li><a class="dropdown-item" href="#">Contact</a></li>
+                      <li><a class="dropdown-item" href="#">FAQ</a></li>
+                    </ul>
+                  </li>
+                </div>
+
+                <div class="icon-group drop-side d-flex align-items-center">
+                  <i class="bi bi-person"></i>
+                  <i class="bi bi-heart"></i>
+                  <i class="bi bi-search"></i>
+                  <div class="position-relative">
+                    <i class="bi bi-bag"></i>
+                    <span class="cart-badge">0</span>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 bg-danger">
+            <!-- Hero-content start -->
+            <div class="hero-content mt-5 position-absolute">
+              <h2>Spring / Summer Season</h2>
+
+              <div class="custom-heading">
+                <h4 class="break-point">
+                  up <br />
+                  to
+                </h4>
+                <h4 class="custom-head">50% OFF</h4>
+              </div>
+
+              <div class="custom-heading mt-3">
+                <h6>Starting at</h6>
+                <h6 class="mx-4 span-top">
+                  <sup>$</sup><span>19</span> <sup>99</sup>
+                </h6>
+                <button>SHOP NOW</button>
+              </div>
+
+              <div class="star">
+                <i class="fa-solid fa-splotch"></i>
+              </div>
+              <div class="star-2">
+                <i class="fa-solid fa-splotch"></i>
+              </div>
+            </div>
+            <!-- Hero-content end -->
+          </div>
+        </div>
+      </div>
     </section>
 
     <!------------------------- Hero-section end----------------------- -->
 
     <!------------------------- Shop-section start----------------------- -->
     <section id="shop-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2 mt-5">
+            <div class="nav-tab-main">
+              <div class="nav-tab-side mx-5">
+                <span class="tav-head ">Shop by:</span>
+                
+                <ul id="shop-filters">
+                  <li>
+                    <a href="#" data-filter="*"
+                      ><input type="checkbox" /><span>All</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-filter=".accessories"
+                      ><input type="checkbox" /><span>Accessories</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-filter=".electronics"
+                      ><input type="checkbox" /><span>Electronics</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-filter=".men"
+                      ><input type="checkbox" /><span>Men</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-filter=".shoes"
+                      ><input type="checkbox" /><span>Shoes</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" data-filter=".women"
+                      ><input type="checkbox" /><span>Women</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
 
+              <!-- <div class="d-flex">
+                <div class="vr"></div>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-md-10 mt-5">
+
+            <div class="product-grid ">
+              <div class="row">
+                <!---------- card-1-------- -->
+                <div class="col-md-3 accessories women">
+                  <div class="card">
+                    <img
+                      src="assets/img/hero-section-img/shop-p-1.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="hover-content">
+                      <div class="inner">
+                        <p style="color: white" class="mt-4">QUCKEVIEW</p>
+                      </div>
+                    </div>
+                    <div class="hover-icon">
+                      <div class="bag-icon">
+                        <i class="bi bi-bag"></i>
+                      </div>
+                      <div class="bag-icon">
+                        <i class="bi bi-bar-chart-fill"></i>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <div
+                        class="card-content d-flex justify-content-between mt-3"
+                      >
+                        <p class="card-text">Backpack Sfs Responder</p>
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <div class="card-icon">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="price">
+                        <h5>$185.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---------- card-2-------- -->
+  
+                <div class="col-md-3 women shoes">
+                  <div class="card">
+                    <img
+                      src="assets/img/hero-section-img/shop-p-2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="hover-content">
+                      <div class="inner">
+                        <p style="color: white" class="mt-4">QUCKEVIEW</p>
+                      </div>
+                    </div>
+                    <div class="hover-icon">
+                      <div class="bag-icon">
+                        <i class="bi bi-bag"></i>
+                      </div>
+                      <div class="bag-icon">
+                        <i class="bi bi-bar-chart-fill"></i>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <div
+                        class="card-content d-flex justify-content-between mt-3"
+                      >
+                        <p class="card-text">Backpack Sfs Responder</p>
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <div class="card-icon">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="price">
+                        <h5>$185.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---------- card-3-------- -->
+  
+                <div class="col-md-3 accessories">
+                  <div class="card">
+                    <img
+                      src="assets/img/hero-section-img/shop-p-3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="hover-content">
+                      <div class="inner">
+                        <p style="color: white" class="mt-4">QUCKEVIEW</p>
+                      </div>
+                    </div>
+                    <div class="hover-icon">
+                      <div class="bag-icon">
+                        <i class="bi bi-bag"></i>
+                      </div>
+                      <div class="bag-icon">
+                        <i class="bi bi-bar-chart-fill"></i>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <div
+                        class="card-content d-flex justify-content-between mt-3"
+                      >
+                        <p class="card-text">Backpack Sfs Responder</p>
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <div class="card-icon">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="price">
+                        <h5>$185.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---------- card-4-------- -->
+  
+                <div class="col-md-3 men">
+                  <div class="card">
+                    <img
+                      src="assets/img/hero-section-img/shop-p-4.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="hover-content">
+                      <div class="inner">
+                        <p style="color: white" class="mt-4">QUCKEVIEW</p>
+                      </div>
+                    </div>
+                    <div class="hover-icon">
+                      <div class="bag-icon">
+                        <i class="bi bi-bag"></i>
+                      </div>
+                      <div class="bag-icon">
+                        <i class="bi bi-bar-chart-fill"></i>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <div
+                        class="card-content d-flex justify-content-between mt-3"
+                      >
+                        <p class="card-text">Backpack Sfs Responder</p>
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <div class="card-icon">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="price">
+                        <h5>$185.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!----------- product-row-2--------- -->
+  
+              <div class="row mt-5">
+                <!---------- card-1-------- -->
+                <div class="col-md-3 men">
+                  <div class="card">
+                    <img
+                      src="assets/img/hero-section-img/shop-p-6.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="hover-content">
+                      <div class="inner">
+                        <p style="color: white" class="mt-4">QUCKEVIEW</p>
+                      </div>
+                    </div>
+                    <div class="hover-icon">
+                      <div class="bag-icon">
+                        <i class="bi bi-bag"></i>
+                      </div>
+                      <div class="bag-icon">
+                        <i class="bi bi-bar-chart-fill"></i>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <div
+                        class="card-content d-flex justify-content-between mt-3"
+                      >
+                        <p class="card-text">Backpack Sfs Responder</p>
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <div class="card-icon">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="price">
+                        <h5>$185.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---------- card-2-------- -->
+  
+                <div class="col-md-3 men">
+                  <div class="card">
+                    <img
+                      src="assets/img/hero-section-img/shop-p-7.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="hover-content">
+                      <div class="inner">
+                        <p style="color: white" class="mt-4">QUCKEVIEW</p>
+                      </div>
+                    </div>
+                    <div class="hover-icon">
+                      <div class="bag-icon">
+                        <i class="bi bi-bag"></i>
+                      </div>
+                      <div class="bag-icon">
+                        <i class="bi bi-bar-chart-fill"></i>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <div
+                        class="card-content d-flex justify-content-between mt-3"
+                      >
+                        <p class="card-text">Backpack Sfs Responder</p>
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <div class="card-icon">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="price">
+                        <h5>$185.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---------- card-3-------- -->
+  
+                <div class="col-md-3  accessories">
+                  <div class="card">
+                    <img
+                      src="assets/img/hero-section-img/shop-p-8.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="hover-content">
+                      <div class="inner">
+                        <p style="color: white" class="mt-4">QUCKEVIEW</p>
+                      </div>
+                    </div>
+                    <div class="hover-icon">
+                      <div class="bag-icon">
+                        <i class="bi bi-bag"></i>
+                      </div>
+                      <div class="bag-icon">
+                        <i class="bi bi-bar-chart-fill"></i>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <div
+                        class="card-content d-flex justify-content-between mt-3"
+                      >
+                        <p class="card-text">Backpack Sfs Responder</p>
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <div class="card-icon">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="price">
+                        <h5>$185.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!---------- card-4-------- -->
+  
+                <div class="col-md-3  electronics">
+                  <div class="card">
+                    <img
+                      src="assets/img/hero-section-img/shop-p-9.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="hover-content">
+                      <div class="inner">
+                        <p style="color: white" class="mt-4">QUCKEVIEW</p>
+                      </div>
+                    </div>
+                    <div class="hover-icon">
+                      <div class="bag-icon">
+                        <i class="bi bi-bag"></i>
+                      </div>
+                      <div class="bag-icon">
+                        <i class="bi bi-bar-chart-fill"></i>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <!-- <h5 class="card-title">Card title</h5> -->
+                      <div
+                        class="card-content d-flex justify-content-between mt-3"
+                      >
+                        <p class="card-text">Backpack Sfs Responder</p>
+                        <i class="bi bi-heart"></i>
+                      </div>
+                      <div class="card-icon">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                      </div>
+                      <div class="price">
+                        <h5>$185.00</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
     </section>
     <!------------------------- Shop-section end----------------------- -->
 
     <!--************************* Nupur's section end************************* -->
 
-
-
-
-
-
-
-
-
-
-
     <!--************************* Wahed's sections start************************* -->
 
     <!------------------------- Ultra-boost section start----------------------- -->
-    <section id="ultra-section">
-
-    </section>
+    <section id="ultra-section"></section>
     <!------------------------- Ultra-boost section end----------------------- -->
-    
-    
-    <!------------------------- Featured section Start----------------------- -->
-    <section id="Featured-section">
 
-    </section>
+    <!------------------------- Featured section Start----------------------- -->
+    <section id="Featured-section"></section>
     <!------------------------- Featured section end----------------------- -->
 
-
     <!--************************* Wahed's sections end************************* -->
-    
-    
-    
-    
-    
-    
-    
-    
+
     <!--************************* Arpon's sections Start************************* -->
     <!--------------------------- Explore-section start------------------------- -->
-    <section id="explore-section">
-
-    </section>
+    <section id="explore-section"></section>
     <!--------------------------- Explore-section end------------------------- -->
-    
-    
-    <!--------------------------- Footer-section start------------------------- -->
-    <section id="footer-section">
 
-    </section>
+    <!--------------------------- Footer-section start------------------------- -->
+    <section id="footer-section"></section>
     <!--------------------------- Footer-section end------------------------- -->
 
     <!--************************* Arpon's sections end************************* -->
 
+    <!------------------ java-script link-1---------------- -->
+    <script src="assets/js/script.js"></script>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
 
+   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
-
-
-<!------------------ java-script link-1---------------- -->
-<script src="assets/js/script.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>

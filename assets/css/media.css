@@ -1,0 +1,232 @@
+@media (max-width: 768px) {
+    .star {
+        position: absolute;
+        font-size: 40px;
+        left: 850px;
+        top: -57px;
+        filter: blur(5px);
+        color: #cccccc84;
+        animation: blur 15s linear infinite;
+        /* <== shorter duration + infinite repeat */
+        display: none !important;
+    }
+
+    .star-2 {
+        position: absolute;
+        font-size: 75px;
+        left: 1200px;
+        top: 170px;
+        filter: blur(10px);
+        color: #cccccc58;
+        display: none !important;
+    }
+
+    .hero-content {
+        width: auto;
+        height: auto;
+        /* background-color: red; */
+        top: 111px;
+        left: 31px;
+        color: white;
+        z-index: 9999;
+        margin: 0 auto;
+    }
+
+    #hero-section {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../img/hero-section-img/hero-bg-img.jpg);
+        position: relative;
+    }
+
+    .navbar {
+        background-color: black;
+        padding: 1.5rem 0.2rem;
+        position: absolute;
+        z-index: 99999;
+        width: 100%;
+    }
+
+
+    .icon-group i {
+        font-size: 16px;
+        color: #fff;
+        margin-left: 10px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .icon-group {
+        margin: 0 auto;
+        position: relative;
+    }
+
+
+
+
+    .hero-content h2 {
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 200;
+        letter-spacing: 0.008em;
+        font-family: 'Segoe Script', 'Savoye LET';
+
+    }
+
+   .custom-heading button {
+    display: none !important;
+}
+
+    .custom-heading h4 {
+        font-size: 15px;
+        line-height: 1;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    .custom-heading h6,
+    sup {
+        font-size: 1.125em;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+
+    }
+
+    .custom-heading sup,
+    span {
+        color: #D26E4B;
+    }
+
+    .custom-heading span {
+        font-size: 2.1em;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin-top: -0.1em;
+    }
+
+    .custom-head {
+        font-size: 15px !important;
+        line-height: 1;
+        letter-spacing: 0.035em;
+        display: inline-block !important;
+    }
+
+    .custom-heading button {
+        /* display: none !important; */
+    }
+
+    .icon-drop-down .nav-item {
+        display: none;
+    }
+
+    #shop-section {
+        width: 100%;
+        height: auto;
+        background-color: #F4F4F4;
+        /* background-color: red !important; */
+    }
+
+    .nav-tab-side ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tav-head {
+        margin-left: 0px;
+    }
+
+    .nav-tab-side {
+        padding: 0px !important;
+    }
+
+    #hero-section::after {
+        transform: scale(0.5);
+    }
+
+    /* nav-ber */
+    .navbar .navbar-toggler {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        z-index: 1050;
+        /* above other elements */
+    }
+
+    .navbar  ul{
+        margin-top: 40px;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        z-index: 1050;
+    }
+
+    /* nav-ber */
+
+    #hero-section::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url(../img/hero-section-img/white-shoes.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* animation: shake 10s; */
+        /* animation-fill-mode: both; */
+        /* animation-iteration-count: infinite; */
+        transition: transform 0.3s ease;
+        right: 10px;
+
+
+    }
+
+
+    @keyframes shake {
+
+        0%,
+        100% {
+            transform: translateX(0);
+            opacity: 1
+        }
+
+        10%,
+        30%,
+        50%,
+        70%,
+        90% {
+            transform: translateX(0px);
+        }
+
+        20%,
+        40%,
+        60%,
+        80% {
+            transform: translateX(0px);
+        }
+    }
+
+    #hero-section::after {
+        display: none;
+    }
+
+    #shop-filters {
+        padding: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .nav-tab-main {
+        margin-left: 0px !important;
+        padding: 0px !important;
+    }
+
+    .card {
+        margin: 0 auto;
+        margin-bottom: 20px !important;
+    }
+}
